@@ -1,6 +1,6 @@
 import Foundation
 
-guard let str: String = readLine() else {
+guard let str: String = readLine(), !str.isEmpty else {
     fatalError("입력 없음")
 }
 
