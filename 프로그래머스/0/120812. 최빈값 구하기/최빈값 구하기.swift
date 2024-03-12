@@ -1,6 +1,7 @@
 import Foundation
 
 func solution(_ array: [Int]) -> Int {
+    
     guard 1..<100 ~= array.count else {
         fatalError("배열의 길이는 1 이상 99 이하입니다.")
     }
